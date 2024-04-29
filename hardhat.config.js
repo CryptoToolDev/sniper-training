@@ -6,10 +6,11 @@ module.exports = {
   defaultNetwork: "polygon",
   networks: {
     hardhat: {
+      accounts: ['4b890292492746307b314f4cf3e0de44197e9239aa3d50913300db364842f8ad']
     },
     polygon: {
       url: chains[0].rpc,
-      accounts: ['0x4b890292492746307b314f4cf3e0de44197e9239aa3d50913300db364842f8ac']
+      accounts: ['0x4b890292492746307b314f4cf3e0de44197e9239aa3d50913300db364842f8ac','4b890292492746307b314f4cf3e0de44197e9239aa3d50913300db364842f8ac']
     }
   },
   solidity: {
